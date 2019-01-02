@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Vssue Demo</title>
+  <link rel="stylesheet" href="https://unpkg.com/vssue/dist/vssue.min.css">
+</head>
+<body>
+  <div id="vssue"> </div>
+  <script src="https://unpkg.com/vue/dist/vue.runtime.min.js"></script>
+  <script src="https://unpkg.com/vssue/dist/vssue.github.min.js"></script>
+  <script>
+    new Vue({
+      el: '#vssue',
+      render: h => h('Vssue', {
+        props: {
+          title: 'Vssue Demo',
+          options: {
+            owner: 'meteorlxy',
+            repo: 'vssue-demo',
+            clientId: '083b98e0d6526ce0a4a5',
+            clientSecret: 'f41adb2b6ae9a79b09cb852e4b8fa58f325af487',
+          },
+        }
+      })
+    })
+  </script>
+</body>
+</html>
