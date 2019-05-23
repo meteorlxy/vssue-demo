@@ -4,6 +4,7 @@
     "dev:github": "anywhere -d github -h localhost 8080",
     "dev:gitlab": "anywhere -d gitlab -h localhost 8080",
     "dev:bitbucket": "anywhere -d bitbucket -h localhost 8080",
+    "dev:gitee": "anywhere -d gitee -h localhost 8080",
     "dev:vuepress": "vuepress dev vuepress"
   },
   "devDependencies": {
