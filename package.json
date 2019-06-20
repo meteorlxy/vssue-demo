@@ -8,8 +8,8 @@
     "dev:vuepress": "vuepress dev vuepress"
   },
   "devDependencies": {
-    "@vssue/vuepress-plugin-vssue": "^0.1.5",
+    "@vssue/vuepress-plugin-vssue": "^1.0.0",
     "anywhere": "^1.5.0",
-    "vuepress": "^1.0.0-alpha.30"
+    "vuepress": "^1.0.0"
   }
 }
