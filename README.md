@@ -15,4 +15,6 @@ yarn run dev:bitbucket
 yarn run dev:gitee
 # Vuepress Plugin demo
 yarn run dev:vuepress
+# Nuxt demo
+yarn run dev:nuxt
 ```
