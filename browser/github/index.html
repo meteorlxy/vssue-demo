@@ -5,9 +5,11 @@
   <link rel="stylesheet" href="https://unpkg.com/vssue/dist/vssue.min.css">
 </head>
 <body>
-  <div id="vssue"> </div>
+  <h1>Vssue Demo For Browser: GitHub</h1>
+  <div id="vssue"></div>
   <script src="https://unpkg.com/vue/dist/vue.runtime.min.js"></script>
-  <script src="https://unpkg.com/vssue/dist/vssue.gitlab.min.js"></script>
+  <script src="https://unpkg.com/vssue/dist/vssue.github.min.js"></script>
+  <!-- <script src="https://unpkg.com/vssue/dist/vssue.github-v4.min.js"></script> -->
   <script>
     new Vue({
       el: '#vssue',
@@ -17,7 +19,8 @@
           options: {
             owner: 'meteorlxy',
             repo: 'vssue-demo',
-            clientId: 'e2713f2b0408fbde3256e4906080f409cc733bc2675c1c9013ce1365ff3fb9b0',
+            clientId: '083b98e0d6526ce0a4a5',
+            clientSecret: 'f41adb2b6ae9a79b09cb852e4b8fa58f325af487',
           },
         }
       })

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Vssue Demo</h1>
+    <h1>Vssue Demo For Nuxt.js</h1>
 
     <ClientOnly>
       <Vssue title="Vssue Demo" />

@@ -1,4 +1,4 @@
-# Vssue Demo for VuePress
+# Vssue Demo for Gridsome
 
 ```bash
 yarn install

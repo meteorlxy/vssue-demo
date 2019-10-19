@@ -1,4 +1,4 @@
-# Vssue Demo for VuePress
+# Vssue Demo for Nuxt
 
 ```bash
 yarn install
