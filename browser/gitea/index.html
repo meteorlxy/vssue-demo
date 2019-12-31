@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Vssue Demo</title>
+  <link rel="stylesheet" href="https://unpkg.com/vssue/dist/vssue.min.css">
+</head>
+<body>
+  <h1>Vssue Demo For Browser: Gitea</h1>
+  <div id="vssue"></div>
+  <script src="https://unpkg.com/vue/dist/vue.runtime.min.js"></script>
+  <script src="https://unpkg.com/vssue/dist/vssue.gitea.min.js"></script>
+  <script>
+    new Vue({
+      el: '#vssue',
+      render: h => h('Vssue', {
+        props: {
+          title: 'Vssue Demo',
+          options: {
+            owner: 'meteorlxy',
+            repo: 'vssue-demo',
+            clientId: 'a3884e0e-9a61-41b1-853e-6b4ec3263c05',
+            clientSecret: 'MkPJp-7-Arw7wEkAg8gCe08ziGTY7byd4ltFh-9FSVc=',
+          },
+        }
+      })
+    })
+  </script>
+</body>
+</html>
